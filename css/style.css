@@ -1,0 +1,132 @@
+body{
+    margin: 0;
+    text-align: center;
+}
+h1{
+    margin: 40px auto 0px auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 90px;
+    color: #0A1931;
+    line-height: 1.5;
+}
+
+.top-container{
+    background-color: #b6c867;
+ 
+    padding-top: 80px;
+
+}
+#image{
+position: absolute;
+right: 300px;
+top: 60px;
+ 
+}
+#lol{
+    position: absolute;
+    top: 290px;
+    left: 180px;
+}
+#h2{
+    font-family: 'Palanquin Dark', sans-serif;
+    font-size:2rem;
+    margin-top: 0;
+    color: #0A1931;
+    font-weight: normal;
+    font-family: 'Montserrat', sans-serif;
+}
+::selection{
+    color: wheat;
+}
+#profile-photo{
+    height: 200px;
+}
+.h3{
+    color: #b6c867;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+}
+.btn{
+    
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 20px;
+        color: #FFFFFF;
+        font-family: Helvetica;
+        font-size: 15px;
+        padding: 20px;
+        background-color: #B6C867;
+        text-decoration: none;
+        display: inline-block;
+        cursor: pointer;
+        text-align: center;
+        margin: 5%;
+     
+}
+.btn:hover{
+    /* transform: skew(1deg); */
+    padding:20px;
+    box-shadow: 2px 2px 6px grey;
+   
+}
+.footer-link{
+    color:#0A1931;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px; ;
+    padding: 20px;
+    margin: 10px; 
+    
+}
+.footer-link:hover{
+    /* box-shadow: 2px 2px 6px grey; */
+    text-decoration: underline;
+}
+.skill-row{
+    width: 50%;
+    margin:100px auto 130px auto;
+    text-align: left;
+    line-height: 2;
+}
+.hko{ 
+    color: #40514E;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+
+.skill-image{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+   
+}
+.chillies{
+    float: right;
+    margin-left: 30px;
+ 
+}
+.horizontal-rule{
+    width: 4%;
+    border-style: dotted none none;
+    height: 0;
+    border-width: 6px;
+    color: #EEEEEE;
+    margin-top: 90px ;
+    margin-bottom: 90px ;
+    
+}
+.bottom-container{
+    background-color: #b6c867;
+    /* height: 170px; */
+    margin: 0;
+    /* border: 2px solid red; */
+    padding: 25px;
+    padding-top: 50px;
+}
+#copy{
+    margin: 30px;
+    /* border: 3px solid blue; */
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
